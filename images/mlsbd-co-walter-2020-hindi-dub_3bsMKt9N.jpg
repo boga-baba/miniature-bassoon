@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<meta http-equiv="cleartype" content="on">
+
+<title>404 - Page Not Found | GDxFiles.Com</title>
+<!-- CSRF Token -->
+<meta name="csrf-token" content="OcJ1aFzWkmLv8XaIv2T6AY6R0zOZD3dbtjBQ1r8k">
+<!-- MDB5-STANDARD-UI-KIT-Free-3.9.0_css_mdb.dark.min -->
+ 
+<link rel="preload" as="style" href="https://gdxfiles.com/build/assets/app-6idufgFr.css" /><link rel="modulepreload" href="https://gdxfiles.com/build/assets/app-C0G0cght.js" /><link rel="stylesheet" href="https://gdxfiles.com/build/assets/app-6idufgFr.css" data-navigate-track="reload" /><script type="module" src="https://gdxfiles.com/build/assets/app-C0G0cght.js" data-navigate-track="reload"></script><link rel="stylesheet" href="https://gdxfiles.com/css/style.css?v=1">
+
+<link rel="icon" href="https://gdxfiles.com/storage/favicons/01M1SKE8QX6AQ1N2WY3TXN9493.png" type="image/x-icon">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- font awesome 5.15.1 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+<script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    .error-page-wrapper {
+        background: #f5f5f5;
+        min-height: calc(100vh - 200px);
+        padding: 60px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dark .error-page-wrapper {
+        background: #111827;
+    }
+    
+    .error-card {
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .dark .error-card {
+        background: #1f2937;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    .error-icon-container {
+        padding: 48px 24px 24px;
+    }
+    
+    .error-icon {
+        font-size: 120px;
+        color: #ef4444;
+        margin-bottom: 24px;
+        animation: pulse 2s ease-in-out infinite;
+    }
+    .dark .error-icon {
+        color: #f87171;
+    }
+    
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+    }
+    
+    .error-content {
+        padding: 0 32px 48px;
+    }
+    
+    .error-title {
+        font-size: 48px;
+        font-weight: 700;
+        color: #111827;
+        margin: 0 0 16px 0;
+        line-height: 1.2;
+    }
+    .dark .error-title {
+        color: #f9fafb;
+    }
+    
+    .error-subtitle {
+        font-size: 20px;
+        font-weight: 600;
+        color: #374151;
+        margin: 0 0 32px 0;
+    }
+    .dark .error-subtitle {
+        color: #d1d5db;
+    }
+    
+    .error-description {
+        font-size: 16px;
+        color: #6b7280;
+        line-height: 1.6;
+        margin: 0 0 32px 0;
+    }
+    .dark .error-description {
+        color: #9ca3af;
+    }
+    
+    .error-reasons {
+        background: #f9fafb;
+        border-radius: 12px;
+        padding: 24px;
+        margin: 32px 0;
+        text-align: left;
+    }
+    .dark .error-reasons {
+        background: #374151;
+    }
+    
+    .error-reasons-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #111827;
+        margin: 0 0 16px 0;
+    }
+    .dark .error-reasons-title {
+        color: #f9fafb;
+    }
+    
+    .error-reason-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        font-size: 15px;
+        color: #6b7280;
+    }
+    .dark .error-reason-item {
+        color: #9ca3af;
+    }
+    
+    .error-reason-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .error-reason-icon {
+        color: #ef4444;
+        margin-right: 12px;
+        margin-top: 4px;
+        flex-shrink: 0;
+    }
+    .dark .error-reason-icon {
+        color: #f87171;
+    }
+    
+    .error-actions {
+        margin-top: 40px;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .error-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .error-btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+    .error-btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        color: white;
+    }
+    
+    .error-btn-secondary {
+        background: white;
+        color: #374151;
+        border: 2px solid #e5e7eb;
+    }
+    .dark .error-btn-secondary {
+        background: #374151;
+        color: #f9fafb;
+        border-color: #4b5563;
+    }
+    .error-btn-secondary:hover {
+        background: #f9fafb;
+        border-color: #d1d5db;
+        color: #111827;
+        transform: translateY(-2px);
+    }
+    .dark .error-btn-secondary:hover {
+        background: #4b5563;
+        border-color: #6b7280;
+        color: #f9fafb;
+    }
+    
+    @media (max-width: 768px) {
+        .error-page-wrapper {
+            padding: 40px 16px;
+        }
+        
+        .error-icon {
+            font-size: 80px;
+        }
+        
+        .error-title {
+            font-size: 36px;
+        }
+        
+        .error-subtitle {
+            font-size: 18px;
+        }
+        
+        .error-content {
+            padding: 0 24px 32px;
+        }
+        
+        .error-actions {
+            flex-direction: column;
+        }
+        
+        .error-btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+</style>
+<style>
+  /* alert alert-success success */
+  .success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  .alert{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+  /* alert alert-danger danger */
+  .danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  .alert{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+  .alert-sucess{
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  .warning
+  {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+  }
+  </style></head>
+
+
+<body class="bg-gray-50 dark:bg-gray-900 overflow-x-hidden w-full">
+        <!-- Navigation -->
+    <nav class="bg-white dark:bg-gray-800 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16">
+            <div class="flex">
+              <div class="flex-shrink-0 flex items-center">
+                <a href="/" class="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                  <!-- <i class="fas fa-cloud-upload-alt mr-2"></i> -->
+                  GDxFiles.Com
+                </a>
+              </div>
+              <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                <a href="/" class="border-transparent text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  <i class="fas fa-home mr-1"></i> Home
+                </a>
+                <a href="https://gdxfiles.com/blog " class="border-transparent text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  <i class="fas fa-blog mr-1"></i> Blog
+                </a>
+                <a href="https://gdxfiles.com/about " class="border-transparent text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  <i class="fas fa-info-circle mr-1"></i> About
+                </a>
+                <a href="https://gdxfiles.com/contact " class="border-transparent text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  <i class="fas fa-envelope mr-1"></i> Contact
+                </a>
+                <!-- <a href="https://gdxfiles.com/help " class="border-transparent text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  <i class="fas fa-question-circle mr-1"></i> Help
+                </a> -->
+              </div>
+            </div>
+            
+            <!-- Mobile menu button -->
+            <div class="sm:hidden flex items-center">
+              <button id="mobile-menu-button" class="p-2 rounded-md text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <i class="fas fa-bars" id="mobile-menu-icon"></i>
+              </button>
+            </div>
+            
+            <div class="hidden sm:flex items-center space-x-4">
+              <button id="theme-toggle" class="p-2 rounded-md text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:inline"></i>
+              </button>
+
+                                <a href="https://gdxfiles.com/login" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
+                      <i class="fas fa-sign-in-alt mr-2"></i> Sign In
+                    </a>
+                              </div>
+          </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden sm:hidden bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a href="/" class="text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+              <i class="fas fa-home mr-2"></i> Home
+            </a>
+            <a href="https://gdxfiles.com/blog" class="text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+              <i class="fas fa-blog mr-2"></i> Blog
+            </a>
+            <a href="https://gdxfiles.com/about" class="text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+              <i class="fas fa-info-circle mr-2"></i> About
+            </a>
+            <a href="https://gdxfiles.com/contact" class="text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+              <i class="fas fa-envelope mr-2"></i> Contact
+            </a>
+            <a href="https://gdxfiles.com/help" class="text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+              <i class="fas fa-question-circle mr-2"></i> Help
+            </a>
+            
+                          <hr class="border-gray-200 dark:border-gray-700 my-2">
+              <a href="https://gdxfiles.com/login" class="text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900 block px-3 py-2 rounded-md text-base font-medium">
+                <i class="fas fa-sign-in-alt mr-2"></i> Sign In
+              </a>
+                      </div>
+        </div>
+      </nav>    <div class="error-page-wrapper">
+    <div class="error-card">
+        <div class="error-icon-container">
+            <i class="fas fa-exclamation-triangle error-icon"></i>
+        </div>
+        
+        <div class="error-content">
+            <h1 class="error-title">404</h1>
+            <h2 class="error-subtitle">Page Not Found</h2>
+            
+            <p class="error-description">
+                The file or page you are looking for is no longer available or doesn't exist.
+            </p>
+            
+            <div class="error-reasons">
+                <h3 class="error-reasons-title">This could be due to:</h3>
+                <div class="error-reason-item">
+                    <i class="fas fa-times-circle error-reason-icon"></i>
+                    <span>The file has been removed due to a Terms of Service / Acceptable Use Policy violation</span>
+                </div>
+                <div class="error-reason-item">
+                    <i class="fas fa-user-times error-reason-icon"></i>
+                    <span>The file has been deleted by the user</span>
+                </div>
+                <div class="error-reason-item">
+                    <i class="fas fa-link error-reason-icon"></i>
+                    <span>The URL is invalid or has expired</span>
+                </div>
+            </div>
+            
+            <div class="error-actions">
+                <a href="https://gdxfiles.com" class="error-btn error-btn-primary">
+                    <i class="fas fa-home"></i>
+                    Go to Homepage
+                </a>
+                <a href="javascript:history.back()" class="error-btn error-btn-secondary">
+                    <i class="fas fa-arrow-left"></i>
+                    Go Back
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+<footer class="bg-gray-800 dark:bg-gray-900">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-white font-semibold mb-4">Company</h3>
+                <ul class="space-y-2">
+                    <li><a href="https://gdxfiles.com/about" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-info-circle mr-2"></i>About</a></li>
+                    <li><a href="https://gdxfiles.com/blog" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-blog mr-2"></i>Blog</a></li>
+                    <li><a href="https://gdxfiles.com/contact" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-envelope mr-2"></i>Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-4">Support</h3>
+                <ul class="space-y-2">
+                    <li><a href="https://gdxfiles.com/help" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-question-circle mr-2"></i>Help Center</a></li>
+                    <li><a href="https://gdxfiles.com/contact" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-envelope mr-2"></i>Contact</a></li>
+                    <li><a href="https://gdxfiles.com/server-status" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-signal mr-2"></i>Status</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-4">Resources</h3>
+                <ul class="space-y-2">
+                    <li><a href="https://gdxfiles.com/help" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-book mr-2"></i>Documentation</a></li>
+                    <li><a href="https://gdxfiles.com/blog" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-newspaper mr-2"></i>Blog</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">
+                                <i class="fas fa-video mr-2"></i>Tutorials</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-4">Connect</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white text-2xl transition-colors" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white text-2xl transition-colors" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white text-2xl transition-colors" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white text-2xl transition-colors" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400">&copy; 2026 GDxFiles.Com. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                    <i class="fas fa-globe mr-1"></i> English
+                </a>
+                <button id="theme-toggle-footer" class="text-gray-400 hover:text-white transition-colors">
+                    <i class="fas fa-moon dark:hidden"></i>
+                    <i class="fas fa-sun hidden dark:inline"></i>
+                    Theme
+                </button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!-- js_mdb.min -->
+<script src="https://gdxfiles.com/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    // Global namespaced toast to avoid duplicate identifier errors across pages/components
+    window.AppToast = window.AppToast || Swal.mixin({
+      toast: true,
+      position: "bottom-end",
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.onmouseenter = Swal.stopTimer;
+        toast.onmouseleave = Swal.resumeTimer;
+      }
+    });
+
+</script>
+<script>
+  // Mobile menu toggle (runs on all public pages)
+  document.addEventListener('DOMContentLoaded', function () {
+    var mobileMenuButton = document.getElementById('mobile-menu-button');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var mobileMenuIcon = document.getElementById('mobile-menu-icon');
+    if (mobileMenuButton && mobileMenu) {
+      mobileMenuButton.addEventListener('click', function () {
+        var isHidden = mobileMenu.classList.contains('hidden');
+        if (isHidden) {
+          mobileMenu.classList.remove('hidden');
+          if (mobileMenuIcon) {
+            mobileMenuIcon.classList.remove('fa-bars');
+            mobileMenuIcon.classList.add('fa-times');
+          }
+          mobileMenuButton.setAttribute('aria-expanded', 'true');
+        } else {
+          mobileMenu.classList.add('hidden');
+          if (mobileMenuIcon) {
+            mobileMenuIcon.classList.remove('fa-times');
+            mobileMenuIcon.classList.add('fa-bars');
+          }
+          mobileMenuButton.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  });
+</script>
+
+        
+    
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"e8c61a00472d4521b5d61b1f0309270a","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>View Links</title>
+
+    <link rel="icon"
+        href="/storage/favicons/favicon.png?v=1778562454" />
+
+        
+    <style >/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggqxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggoxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggsxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggixsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggmxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggexsvfedn4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggqxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggoxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggsxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggixsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggmxsvfedn62zw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://savelinks.me/storage/fonts/4882a66cc5/smanropev20xn7gyhe41ni1adirggexsvfedn4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>    <link rel="preload" as="style" href="https://savelinks.me/build/assets/app-RAnbFwSW.css" /><link rel="modulepreload" as="script" href="https://savelinks.me/build/assets/app-CcNNqum8.js" /><link rel="stylesheet" href="https://savelinks.me/build/assets/app-RAnbFwSW.css" data-navigate-track="reload" /><script type="module" src="https://savelinks.me/build/assets/app-CcNNqum8.js" data-navigate-track="reload"></script>
+<script>
+     window.addEventListener('load', () => window.setTimeout(() => {
+        const makeLink = (asset) => {
+            const link = document.createElement('link')
+
+            Object.keys(asset).forEach((attribute) => {
+                link.setAttribute(attribute, asset[attribute])
+            })
+
+            return link
+        }
+
+        const fragment = new DocumentFragment;
+        [].forEach((asset) => fragment.append(makeLink(asset)))
+        document.head.append(fragment)
+     }))
+</script>
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+
+        
+    
+                <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var hasRedirected = false;
+
+    var handleRedirect = function(event) {
+      if (event.target.matches('#logo, .blog-title')) {
+        return;
+      }
+
+      if (!hasRedirected) {
+        hasRedirected = true; // Set the flag to true
+        window.open('https://jaya9bangla.com/?af=AG000087', '_blank');
+      }
+    };
+
+    document.body.addEventListener('click', handleRedirect);
+  });
+</script>        </head>
+
+<body class="font-sans antialiased bg-primary-50">
+    
+    <!-- Header -->
+    <header x-data="{ open: false }" class="bg-white">
+    <!-- Primary Navigation Menu -->
+    <nav class="container flex justify-between py-3 md:py-4">
+        <!-- Logo -->
+        <a href="https://savelinks.me" wire:navigate class="flex items-center shrink-0 gap-x-1">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="block w-auto text-primary-600" height="40">
+    <path
+        d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M14.28,14.08L12.26,16.1C11.66,16.7 10.87,17 10.08,17C9.29,17 8.5,16.7 7.9,16.1C6.7,14.9 6.7,12.95 7.9,11.74L9.15,10.5L9.14,11.06C9.14,11.5 9.21,11.95 9.36,12.37L9.41,12.5L9.04,12.87C8.76,13.15 8.6,13.53 8.6,13.92C8.6,14.32 8.76,14.69 9.04,14.97C9.6,15.53 10.57,15.53 11.13,14.97L13.14,12.96C13.43,12.67 13.58,12.3 13.58,11.91C13.58,11.5 13.43,11.14 13.15,10.86C13,10.71 12.9,10.5 12.9,10.29C12.9,10.08 13,9.88 13.15,9.73C13.45,9.42 14,9.43 14.28,9.73C14.86,10.31 15.18,11.08 15.18,11.9C15.18,12.73 14.86,13.5 14.28,14.08M17.1,11.26L15.85,12.5L15.86,11.94C15.86,11.5 15.79,11.06 15.64,10.64L15.6,10.5L15.96,10.13C16.25,9.85 16.4,9.5 16.4,9.08C16.4,8.69 16.25,8.32 15.97,8.04C15.4,7.47 14.43,7.47 13.87,8.04L11.86,10.05C11.58,10.33 11.42,10.7 11.42,11.1C11.42,11.5 11.57,11.86 11.86,12.14C12,12.29 12.1,12.5 12.1,12.71C12.1,12.93 12,13.13 11.85,13.28C11.7,13.44 11.5,13.5 11.29,13.5C11.09,13.5 10.88,13.43 10.72,13.28C9.5,12.08 9.5,10.12 10.72,8.92L12.74,6.9C13.95,5.7 15.9,5.7 17.1,6.9C17.68,7.5 18,8.26 18,9.08C18,9.9 17.68,10.68 17.1,11.26Z">
+    </path>
+</svg>
+            <strong class="text-2xl text-gray-800">SaveLinks</strong>
+        </a>
+
+        <!-- Navigation Links -->
+                    <div class="hidden space-x-2 sm:flex">
+                                    <a href="/" class="inline-flex items-center py-2 px-4 text-sm transition duration-150 ease-in-out rounded-lg underline-offset-8 decoration-2 font-medium text-gray-600 hover:underline focus:text-gray-800">
+    Home
+</a>
+                                    <a href="/blog" class="inline-flex items-center py-2 px-4 text-sm transition duration-150 ease-in-out rounded-lg underline-offset-8 decoration-2 font-medium text-gray-600 hover:underline focus:text-gray-800">
+    Blog
+</a>
+                                    <a href="https://mlsbd.co/" class="inline-flex items-center py-2 px-4 text-sm transition duration-150 ease-in-out rounded-lg underline-offset-8 decoration-2 font-medium text-gray-600 hover:underline focus:text-gray-800">
+    Mlsbd
+</a>
+                            </div>
+        
+        <!-- Settings Dropdown -->
+        <div class="hidden sm:flex sm:items-center sm:ms-6 gap-x-2">
+                            <a href="https://savelinks.me/login" wire:navigate="" class="btn px-4 py-2.5 text-sm border border-primary-600 text-primary-600 hover:bg-primary-100 active:bg-primary-600 active:text-white focus:outline-primary-600 bg-primary-50">Login</a>
+
+                <a href="https://savelinks.me/register" wire:navigate="" class="btn px-4 py-2.5 text-sm bg-primary-600 hover:bg-primary-700 text-white focus:outline-primary-400 focus:bg-primary-700 border-primary-600 border">Sign Up</a>
+                    </div>
+
+        <!-- Hamburger -->
+        <div class="flex items-center -me-2 sm:hidden">
+            <button @click="open = ! open"
+                class="inline-flex items-center justify-center p-2 text-gray-800 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100">
+                <svg class="size-7" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path :class="{ 'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    <path :class="{ 'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Responsive Navigation Menu -->
+    <div :class="{ 'block': open, 'hidden': !open }" class="hidden sm:hidden">
+        <div class="py-2 space-y-1">
+                            <a href="/" class="block w-full ps-3 pe-4 py-2 text-start text-sm font-medium transition duration-150 ease-in-out focus:outline-none text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:text-gray-800 focus:bg-gray-50">
+    Home
+</a>
+                            <a href="/blog" class="block w-full ps-3 pe-4 py-2 text-start text-sm font-medium transition duration-150 ease-in-out focus:outline-none text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:text-gray-800 focus:bg-gray-50">
+    Blog
+</a>
+                            <a href="https://mlsbd.co/" class="block w-full ps-3 pe-4 py-2 text-start text-sm font-medium transition duration-150 ease-in-out focus:outline-none text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:text-gray-800 focus:bg-gray-50">
+    Mlsbd
+</a>
+                                        <a href="https://savelinks.me/login" wire:navigate="" class="block w-full ps-3 pe-4 py-2 text-start text-sm font-medium transition duration-150 ease-in-out focus:outline-none text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:text-gray-800 focus:bg-gray-50">
+    Login
+</a>
+
+                <a href="https://savelinks.me/register" wire:navigate="" class="block w-full ps-3 pe-4 py-2 text-start text-sm font-medium transition duration-150 ease-in-out focus:outline-none text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:text-gray-800 focus:bg-gray-50">
+    Sign Up
+</a>
+                    </div>
+
+                </div>
+    </div>
+</header>
+    <h1 class="py-6 text-2xl font-bold text-center text-primary-800 bg-primary-200 md:text-3xl md:py-8 lg:py-10">
+            View Protected Links
+        </h1>
+
+    <!-- Content -->
+    <main class="container">
+        <div class="p-4 mx-auto bg-white shadow-2xl shadow-primary-200 md:p-6 lg:p-8 rounded-none">
+    <div class="min-w-full prose"><p>Quantum computing offers faster processing by using qubits instead of traditional bits, allowing it to solve complex problems efficiently. It’s set to improve fields like cryptography and AI.</p><p>A key benefit is better data security. Quantum encryption makes it much harder for hackers to breach systems, addressing rising cyber threats.</div>
+
+                    <div class="my-5 space-y-4 [&_*]:text-center [&_*]:mx-auto">
+                            </div>
+        
+        <ul
+            class="px-4 py-6 list-none bg-gray-100 rounded-lg border border-gray-200 [&_a]:text-primary-700 [&_a:hover]:underline text-sm my-6 font-medium max-w-2xl mx-auto text-center">
+                            <li class="py-2 border-b last:border-b-0">
+                                            <a href="https://hubcloud.foo/video/1dnyt1wf1oyvcvo" class="break-words" rel="nofollow noopener"
+                            target="_blank">https://hubcloud.foo/video/1dnyt1wf1oyvcvo</a>
+                                    </li>
+                            <li class="py-2 border-b last:border-b-0">
+                                            <a href="https://gdflix.dev/file/lzLoFroRjcjGfCd" class="break-words" rel="nofollow noopener"
+                            target="_blank">https://gdflix.dev/file/lzLoFroRjcjGfCd</a>
+                                    </li>
+                            <li class="py-2 border-b last:border-b-0">
+                                            <a href="https://new2.filepress.cloud/file/692eebf6ab1e76e2894e2dbc" class="break-words" rel="nofollow noopener"
+                            target="_blank">https://new2.filepress.cloud/file/692eebf6ab1e76e2894e2dbc</a>
+                                    </li>
+                    </ul>
+
+                    <div class="my-5 space-y-4 [&_*]:text-center [&_*]:mx-auto">
+                            </div>
+        
+        <div class="flex justify-between my-6 text-gray-600 gap-y-4 max-sm:flex-col">
+            <div class="flex items-center px-3 py-1.5 text-sm bg-gray-100 rounded-md gap-x-2">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/>
+</svg>                HDFIlmBoss
+            </div>
+
+            <div class="flex items-center px-3 py-1.5 text-sm bg-gray-100 rounded-md gap-x-2">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>                Dec 2, 2025
+            </div>
+
+            <div class="flex items-center px-3 py-1.5 text-sm bg-gray-100 rounded-md gap-x-2">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"/>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+</svg>                10842 views
+            </div>
+        </div>
+
+        <div class="min-w-full prose break-words"><p>In healthcare, quantum computing could speed up drug research, helping discover cures faster by simulating complex molecules.</p><p>Though still in its early stages, quantum computing has the potential to transform technology once fully developed.</p></div>
+</div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-primary-100">
+    <div class="container flex flex-col py-8">
+        
+        <div class="flex flex-wrap items-center justify-center w-full gap-4 py-4 md:justify-between md:flex-row-reverse">
+            <div class="flex text-gray-500 gap-x-3 [&>a:hover]:text-gray-800">
+            <a href="https://t.me/mlsbdrequest" target="_blank" rel="noopener noreferrer">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+</svg>            <span class="sr-only">Telegram</span>
+        </a>
+            <a href="https://t.me/mlsbdrequest" target="_blank" rel="noopener noreferrer">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>            <span class="sr-only">Facebook</span>
+        </a>
+    </div>
+            <p class="text-sm">
+                © 2024-2026 SaveLinks. Made with ❤️ In Bangladesh.
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://savelinks.me/livewire-15d7d1f2/livewire.min.js?id=ab6b028c"   data-csrf="ppkTyCmblLjvxnItInQMtPMX3ZnzVgXCBwU5r026" data-module-url="https://savelinks.me/livewire-15d7d1f2" data-update-uri="https://savelinks.me/livewire-15d7d1f2/update" data-navigate-once="true"></script>
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3a60490ce46705c',t:'MTc4OTI5MDYxNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
